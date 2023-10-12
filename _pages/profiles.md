@@ -5,6 +5,7 @@ title: people
 description: members of the lab or group
 nav: true
 nav_order: 6
+published: false
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -15,7 +16,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
-      <p>123 your address street</p>
+      <p>Boltzmannstr. 3</p>
       <p>Your City, State 12345</p>
   - align: left
     image: prof_pic.jpg
@@ -23,6 +24,6 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
-      <p>123 your address street</p>
+      <p>Boltzmannstr. 3</p>
       <p>Your City, State 12345</p>
 ---

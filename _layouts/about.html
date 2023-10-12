@@ -39,6 +39,9 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+            {% if page.logos %}
+            {% include logos.html %}
+            {% endif %}
           </div>
 
           <!-- News -->

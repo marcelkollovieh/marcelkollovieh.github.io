@@ -1,84 +1,54 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{kollovieh2023assessing,
+  abbr={ScoreAG},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={Assessing Robustness via Score-Based Adversarial Image Generation},
+  author={Kollovieh, Marcel and Gosch, Lukas and Scholten, Yan and Lienen, Marten and G{\"u}nnemann, Stephan},
+  journal={arXiv preprint arXiv:2310.04285},
+  year={2023},
+  preview={ScoreAG.png},
+  url={https://arxiv.org/pdf/2310.04285.pdf},
+  pdf={https://arxiv.org/pdf/2310.04285.pdf},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{kollovieh2023predict,
+  abbr={TSDiff},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  %abstract={Diffusion models have achieved state-of-the-art performance in generative modeling tasks across various domains. Prior works on time series diffusion models have primarily focused on developing conditional models tailored to specific forecasting or imputation tasks. In this work, we explore the potential of task-agnostic, unconditional diffusion models for several time series applications. We propose TSDiff, an unconditionally trained diffusion model for time series. Our proposed self-guidance mechanism enables conditioning TSDiff for downstream tasks during inference, without requiring auxiliary networks or altering the training procedure. We demonstrate the effectiveness of our method on three different time series tasks: forecasting, refinement, and synthetic data generation. First, we show that TSDiff is competitive with several task-specific conditional forecasting methods (predict). Second, we leverage the learned implicit probability density of TSDiff to iteratively refine the predictions of base forecasters with reduced computational overhead over reverse diffusion (refine). Notably, the generative performance of the model remains intact -- downstream forecasters trained on synthetic samples from TSDiff outperform forecasters that are trained on samples from other state-of-the-art generative time series models, occasionally even outperforming models trained on real data (synthesize).},
+  title={Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting},
+  author={Kollovieh*, Marcel and Ansari*, Abdul Fatir and Bohlke-Schneider, Michael and Zschiegner, Jasper and Wang, Hao and Wang, Yuyang},
+  journal={In Neural Information Processing Systems},
+  year={2023},
+  preview={TSDiff.png},
+  url={https://arxiv.org/pdf/2307.11494.pdf},
+  pdf={https://arxiv.org/pdf/2307.11494.pdf},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{kukavcka2021self,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  %abstract={Fundus photography is the primary method for retinal imaging and essential for diabetic retinopathy prevention. Automated segmentation of fundus photographs would improve the quality, capacity, and cost-effectiveness of eye care screening programs. However, current segmentation methods are not robust towards the diversity in imaging conditions and pathologies typical for real-world clinical applications. To overcome these limitations, we utilized contrastive self-supervised learning to exploit the large variety of unlabeled fundus images in the publicly available EyePACS dataset. We pre-trained an encoder of a U-Net, which we later fine-tuned on several retinal vessel and lesion segmentation datasets. We demonstrate for the first time that by using contrastive self-supervised learning, the pre-trained network can recognize blood vessels, optic disc, fovea, and various lesions without being provided any labels. Furthermore, when fine-tuned on a downstream blood vessel segmentation task, such pre-trained networks achieve state-of-the-art performance on images from different datasets. Additionally, the pre-training also leads to shorter training times and an improved few-shot performance on both blood vessel and lesion segmentation tasks. Altogether, our results showcase the benefits of contrastive self-supervised pre-training which can play a crucial role in real-world clinical applications requiring robust models able to adapt to new devices with only a few annotated samples.},
+  title={Self-Supervised Learning from Unlabeled Fundus Photographs Improves Segmentation of the Retina},
+  author={Kuka{\v{c}}ka, Jan and Zenz, Anja and Kollovieh, Marcel and J{\"u}stel, Dominik and Ntziachristos, Vasilis},
+  journal={arXiv preprint arXiv:2108.02798},
+  year={2021},
+  preview={SSRetinal.png},
+  url={https://arxiv.org/pdf/2108.02798.pdf},
+  pdf={https://arxiv.org/pdf/2108.02798.pdf},
+}
+
+@article{ezhov2021geometry,
+  bibtex_show={true},
+  %abstract={Modeling of brain tumor dynamics has the potential to advance therapeutic planning. Current modeling approaches resort to numerical solvers that simulate the tumor progression according to a given differential equation. Using highly-efficient numerical solvers, a single forward simulation takes up to a few minutes of compute. At the same time, clinical applications of tumor modeling often imply solving an inverse problem, requiring up to tens of thousands forward model evaluations when used for a Bayesian model personalization via sampling. This results in a total inference time prohibitively expensive for clinical translation. While recent data-driven approaches become capable of emulating physics simulation, they tend to fail in generalizing over the variability of the boundary conditions imposed by the patient-specific anatomy. In this paper, we propose a learnable surrogate for simulating tumor growth which maps the biophysical model parameters directly to simulation outputs, i.e. the local tumor cell densities, whilst respecting patient geometry. We test the neural solver on Bayesian tumor model personalization for a cohort of glioma patients. Bayesian inference using the proposed surrogate yields estimates analogous to those obtained by solving the forward model with a regular numerical solver. The near-real-time computation cost renders the proposed method suitable for clinical settings.},
+  title={Geometry-aware neural solver for fast Bayesian calibration of brain tumor models},
+  author={Ezhov, Ivan and Mot, Tudor and Shit, Suprosanna and Lipkova, Jana and Paetzold, Johannes C and Kofler, Florian and Pellegrini, Chantal and Kollovieh, Marcel and Navarro, Fernando and Li, Hongwei and others},
+  journal={IEEE Transactions on Medical Imaging},
+  volume={41},
+  number={5},
+  pages={1269--1278},
+  year={2021},
+  publisher={IEEE},
+  preview={TumorGrowth.png},
+  url={https://arxiv.org/pdf/2009.04240.pdf},
+  pdf={https://arxiv.org/pdf/2009.04240.pdf},
 }
