@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am Marcel, a PhD student at the Technical University of Munich <strong>(TUM)</strong> under the supervision of <a href='https://www.cs.cit.tum.de/en/daml/team/damlguennemann/'>Prof. Dr. Stephan Günnemann</a>.
 
-<strong> Research:</strong> My primary focus is on <strong>generative models</strong>, including variational autoencoders, diffusion, and score-based generative models. I also work on time series, graphs, and hierarchical structures. For a comprehensive overview of my background and research projects, please refer to my <a href="/assets/pdf/CV.pdf">CV</a>  and publications.
+<strong> Research:</strong> My primary focus is on <strong>generative models</strong>, including variational autoencoders, diffusion, and score-based generative models. I also work on time series, graphs, and hierarchical structures. For a comprehensive overview of my background and research projects, please refer to my <a href="/assets/pdf/CV.pdf" target="_blank">CV</a>  and publications.
 
 <strong> Previously:</strong> I received my bachelor's and master's degrees in computer science from TUM. Following my graduation, I completed an internship as an applied scientist at <strong>AWS AI Labs</strong> in Berlin.
 
